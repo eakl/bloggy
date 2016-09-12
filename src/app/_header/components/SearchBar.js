@@ -13,15 +13,13 @@ const SearchBar = (props) => {
   console.log(term)
 
   return (
-    <section>
-      <form>
-        <input
-          type='search'
-          value={term}
-          onChange={updateSearchBar}
-          onBlur={clearSearchBar} />
-      </form>
-    </section>
+    <form className='dad-blog__searchbar'>
+      <input
+        type='search'
+        value={term}
+        onChange={updateSearchBar}
+        onBlur={clearSearchBar} />
+    </form>
   )
 }
 

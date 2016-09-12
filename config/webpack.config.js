@@ -44,6 +44,12 @@ module.exports = {
         query: {
           limit: 25000
         }
+      },
+      {
+        test: /\.svg$/,
+        exclude: /node_modules/,
+        include: PATHS.images,
+        loader: 'file-loader'
       }
     ]
   },

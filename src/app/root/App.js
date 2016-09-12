@@ -9,11 +9,11 @@ import './App.css'
 
 const App = ({ children }) => {
   return (
-    <div>
+    <section>
       <Header />
         { children }
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </section>
   )
 }
 

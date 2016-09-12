@@ -1,0 +1,63 @@
+.dad-blog__tagbar {
+  background-color: #eaebed;
+  /*border: 1px solid red;*/
+  width: 100%;
+  height: 100%;
+
+  ul {
+    /*background-color: #f1f3f4;*/
+    /*border: 1px solid blue;*/
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+    li {
+      background-color: #eaebed;
+      width: inherit;
+      height: inherit;
+      /*box-sizing: padding-box;*/
+      border-top: 5px solid #eaebed;
+
+      a {
+        flex: 1;
+        background-color: transparent;
+        border: 1px solid #eaebed;
+        border-bottom-style: none;
+        /*box-sizing: content-box;*/
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .9rem;
+        font-weight: 300;
+        color: #9ca4ac;
+        transition: all .2s ease-in-out;
+      }
+
+      a:hover {
+        background-color: #fff;
+        color: #333;
+      }
+
+      a:active {
+        background-color: #fff;
+        color: #333;
+      }
+    }
+
+    li:first-child {
+      margin-left: 15px;
+      background-color: #fff;
+
+      a {
+        color: #333;
+      }
+    }
+  }
+}
