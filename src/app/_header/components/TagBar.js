@@ -12,7 +12,7 @@ const TagBar = () => {
         <li><Link to='/latest'>LATEST</Link></li>
         <li><Link to='/popular'>POPULAR</Link></li>
         <li><Link to='/love'>LOVE</Link></li>
-        <li><Link to='/trip'>TRIP</Link></li>
+        <li><Link to='/journey'>JOURNEY</Link></li>
         <li><Link to='/feeling'>FEELING</Link></li>
         <li><Link to='/happiness'>HAPPINESS</Link></li>
       </ul>

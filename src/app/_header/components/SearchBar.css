@@ -1,9 +1,5 @@
 .dad-blog__searchbar {
 
-  input {
-    outline: none;
-  }
-
   input[type='search'] {
     background: #fff;
     background-image: url(../../public/img/search-gray.svg);

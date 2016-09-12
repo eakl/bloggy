@@ -18,6 +18,7 @@ const NavBar = () => {
           <ul>
             <li><Link to='/'>HOME</Link></li>
             <li><Link to='/category'>CATEGORY</Link></li>
+            <li><Link to='/events'>EVENTS</Link></li>
             <li><Link to='/quote'>QUOTE</Link></li>
             <li><Link to='/about'>ABOUT</Link></li>
           </ul>

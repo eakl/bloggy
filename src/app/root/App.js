@@ -11,7 +11,7 @@ const App = ({ children }) => {
   return (
     <section>
       <Header />
-        { children }
+      { children }
       {/* <Footer /> */}
     </section>
   )

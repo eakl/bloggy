@@ -4,6 +4,7 @@
   /*border: 1px solid #000;*/
   display: flex;
   flex-flow: column;
+  margin-bottom: 3rem;
 
   /*media query*/
 
