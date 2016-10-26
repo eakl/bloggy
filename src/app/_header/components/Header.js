@@ -9,14 +9,14 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header className='dad-blog__header'>
-      <section className='dad-blog__header__navbar'>
+    <header className='bloggy__header'>
+      <section className='bloggy__header__navbar'>
         <NavBar />
       </section>
-      <section className='dad-blog__header__img'>
+      <section className='bloggy__header__img'>
         IMG
       </section>
-      <section className='dad-blog__header__tagbar'>
+      <section className='bloggy__header__tagbar'>
         <TagBar />
       </section>
     </header>

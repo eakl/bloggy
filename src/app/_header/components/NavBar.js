@@ -9,11 +9,11 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <div className='dad-blog__navbar'>
-      <section className='dad-blog__navbar__logo'>
+    <div className='bloggy__navbar'>
+      <section className='bloggy__navbar__logo'>
         Logo
       </section>
-      <section className='dad-blog__navbar__menu'>
+      <section className='bloggy__navbar__menu'>
         <nav>
           <ul>
             <li><Link to='/'>HOME</Link></li>
@@ -24,7 +24,7 @@ const NavBar = () => {
           </ul>
         </nav>
       </section>
-      <section className='dad-blog__navbar__search'>
+      <section className='bloggy__navbar__search'>
         <SearchBar />
       </section>
     </div>

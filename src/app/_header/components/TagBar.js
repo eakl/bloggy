@@ -7,7 +7,7 @@ import './TagBar.css'
 
 const TagBar = () => {
   return (
-    <nav className='dad-blog__tagbar'>
+    <nav className='bloggy__tagbar'>
       <ul>
         <li><Link to='/latest'>LATEST</Link></li>
         <li><Link to='/popular'>POPULAR</Link></li>

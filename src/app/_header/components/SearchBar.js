@@ -13,7 +13,7 @@ const SearchBar = (props) => {
   console.log(term)
 
   return (
-    <form className='dad-blog__searchbar'>
+    <form className='bloggy__searchbar'>
       <input
         type='search'
         value={term}

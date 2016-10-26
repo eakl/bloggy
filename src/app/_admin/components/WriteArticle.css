@@ -1,0 +1,32 @@
+.bloggy__write-article {
+  /*border: 1px solid black;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  form {
+    /*border: 1px solid green;*/
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    input[type='text'],
+    textarea {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      flex: 1;
+      resize: none;
+      overflow: auto;
+    }
+
+    button {
+      align-self: flex-end;
+    }
+  }
+}
